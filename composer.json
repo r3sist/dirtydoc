@@ -1,0 +1,14 @@
+{
+    "name": "resist/dirtydoc",
+    "description": "Quick markdown documentation generator for public methods of a class",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
